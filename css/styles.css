@@ -1,0 +1,100 @@
+/* GLOBAL */
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+#our_story, #review, #order, #contact {
+    min-height: 600px;
+}
+
+/* NAV */
+
+.nav li a:hover {
+    background-color: transparent;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    color: #A52A2A;
+    background-color: #FFFF00;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #FFFF00;
+    text-shadow: 1px 1px 2px #0a0a0a;
+}
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus {
+    color:#A52A2A;
+    background-color: #FFFF00;
+}
+nav.navbar {
+    position: absolute;
+    top: 100;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+.navbar-brand>img {
+    margin-top: -7px;
+}
+
+/* carousel */
+
+.wrap {
+    min-height: 100vh;
+}
+
+.carousel {
+    margin-bottom: 60px;
+}
+
+.carousel-caption {
+    z-index: 10;
+    padding-bottom: 60px;
+}
+
+.carousel-inner .item {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main_img1 {
+    background-image: url('#');
+}
+
+.main_img2 {
+    background-image: url('#');
+}
+
+.main_img3 {
+    background-image: url('#');
+}
+
+.main_logo {
+    max-height: 300px;
+}
+
+.carousel-caption p {
+    color: #f7f7f7;
+    font-size: 16px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #f8512f;
+    border-color: transparent;
+}
+
+.btn-primary:hover {
+    background-color: #d34326;
+    border-color: transparent;
+}
