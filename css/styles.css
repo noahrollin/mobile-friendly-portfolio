@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Sigmar-One|Raleway:700);
+
 /* GLOBAL */
 
 .container-fluid {
@@ -108,4 +110,82 @@ nav.navbar {
 
 #our_story {
     background-color: #fbf063;
+    padding-top: 15px;
+}
+
+#our_story h1 {
+    font-family: 'Sigmar One', serif;
+    color: #A52A2A;
+    font-size: 6em;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+#our_story h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+#our_story p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.story_year {
+    font-family: 'Playfair Display', serif;
+    font-size: 200px;
+    font-weight: 700;
+    z-index: -1;
+    position: absolute;
+    color: rgba(149, 147, 147, 0.2);
+}
+
+/* REVIEW section */
+
+#review {
+    background-image: url('../img/bananas.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#review .center {
+    margin: 0 auto;
+    float: none;
+    background-color: rgba(20, 20, 20, .6);
+    padding: 10px;
+    margin-top: 145px;
+    border-radius: 5px;
+}
+
+#review h1 {
+    font-family: 'Sigmar One', cursive;
+    font-size: 5em;
+    color: #A52A2A;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+#review p {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+/* order */
+
+section {
+    background-image: url('../img/leaf.jpg')
+}
+
+.product {
+    background-color: #;
+    border-radius: 5%;
+    border: 5px solid rgb(252, 252, 252);
+}
+
+.product_image {
+    height: 200px;
+    width: 240px;
 }
