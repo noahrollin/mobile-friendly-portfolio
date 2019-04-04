@@ -7,7 +7,7 @@
     margin: 0;
 }
 
-#review, #order, #contact {
+#review, #contact {
     min-height: 600px;
 }
 
@@ -175,12 +175,16 @@ nav.navbar {
 
 /* order */
 
+#order {
+    padding-bottom: 10px;
+}
+
 section {
     background-image: url('../img/leaf.jpg')
 }
 
 .product {
-    background-color: #;
+    background-color: #FFF;
     border-radius: 5%;
     border: 5px solid rgb(252, 252, 252);
 }
@@ -188,4 +192,19 @@ section {
 .product_image {
     height: 200px;
     width: 240px;
+}
+
+#order h2, h3 {
+    color: #fbf063;
+}
+
+#order i {
+    color: #fbf063;
+    font-size: 3em;
+}
+
+/* contact */
+
+#contact {
+    background-image: url('../img/bananatrees.jpg')
 }
