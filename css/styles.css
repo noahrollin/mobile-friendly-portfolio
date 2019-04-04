@@ -110,7 +110,6 @@ nav.navbar {
 
 #our_story {
     background-color: #fbf063;
-    padding-top: 15px;
 }
 
 #our_story h1 {
@@ -122,9 +121,9 @@ nav.navbar {
 
 #our_story h3 {
     font-family: 'Raleway', sans-serif;
+    color: #0a0a0a;
     font-weight: 700;
     font-size: 2em;
-    margin-top: 0;
 }
 
 #our_story p {
@@ -206,5 +205,33 @@ section {
 /* contact */
 
 #contact {
-    background-image: url('../img/bananatrees.jpg')
+    background-image: url('../img/bananas.jpg')
+}
+
+#contact h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 4em;
+}
+
+#contact p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 1em;
+}
+
+label {
+    color: #fff;
+}
+
+address {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+#contact i {
+    font-size: 2em;
 }
