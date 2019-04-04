@@ -2,11 +2,6 @@
 
 /* GLOBAL */
 
-.container-fluid {
-    padding: 0;
-    margin: 0;
-}
-
 #review, #contact {
     min-height: 600px;
 }
