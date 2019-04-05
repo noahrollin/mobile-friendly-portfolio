@@ -2,6 +2,13 @@
 
 /* GLOBAL */
 
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
 #review, #contact {
     min-height: 600px;
 }
@@ -105,12 +112,13 @@ nav.navbar {
 
 #our_story {
     background-color: #fbf063;
+    padding-top: 10px;
 }
 
-#our_story h1 {
+#our_story h2 {
     font-family: 'Sigmar One', serif;
     color: #A52A2A;
-    font-size: 6em;
+    font-size: 4em;
     text-shadow: 1px 1px 5px #0a0a0a;
 }
 
@@ -181,6 +189,7 @@ section {
     background-color: #FFF;
     border-radius: 5%;
     border: 5px solid rgb(252, 252, 252);
+    height: 350px;
 }
 
 .product_image {
